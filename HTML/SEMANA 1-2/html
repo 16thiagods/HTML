@@ -10,7 +10,7 @@
 
 </head>
 
-<body>
+<body> 
 
 En esta sección se utiliza para colocar etiquetas html
 
@@ -24,6 +24,7 @@ En esta sección se utiliza para colocar etiquetas html
 
 <h5> Título </h5>
 
+<h1 title="cmabio 1" </h1>
 <h6> Título </h6>
 <h1><b><font color="blue">texto prueba</font></b></h1>
 <h2><b><font color="red">texto prueba</font></b></h2>
