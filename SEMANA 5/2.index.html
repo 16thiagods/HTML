@@ -7,7 +7,6 @@
 <meta name="description" content="pagina web de elembtos">
 <meta charset="utf.8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link rel="stylesheet" href="css/estilos_formulario.css">
 </head>
 <body bgcolor="pink"> 
 <marquee bgcolor="blue" behavior="alternate" direction="rigth" style="font-size: 35px;">PAGINA WED HIPERVINCULOS</marquee>
@@ -25,10 +24,10 @@
 <hr>
 <!-- seccion redes sociales-->
 <h2 align="center">SECCION DE REDES SOCIALES</h2>
-
-<center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/800px-Facebook_Logo_%282019%29.png" width="90" alt="facebook"> 
-<img src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-3.png" width="90" height="90" alt="twitter">
-    <img src="https://freepikpsd.com/file/2019/10/logo-instagram-new-png-4-1-Transparent-Images.png" width="90" height="90" alt="instagram"></center>
+<center>
+    <img class="responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/800px-Facebook_Logo_%282019%29.png" width="90" alt="facebook"> 
+    <img class="responsive" src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-3.png" width="90" height="90" alt="twitter">
+    <img class="responsive" src="https://freepikpsd.com/file/2019/10/logo-instagram-new-png-4-1-Transparent-Images.png" width="90" height="90" alt="instagram"></center>
 <br><br><br>
 <hr>    
 <!--seccion videos embedidos-->
@@ -36,7 +35,8 @@
 
 </h2>
 <br>
-    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/rbuYtrNUxg4" frameborder="0"</center>
+    <center>
+        <iframe class="responsive" width="560" height="315" src="https://www.youtube.com/embed/rbuYtrNUxg4" frameborder="0"></iframe> </center>
 <br>
 <hr>
 <h3 align="center">PROGRAMA DE DISEÑO GRAFICO</h3>
@@ -46,7 +46,14 @@
 </P>
 <br>
 <!--Anclaje interno con imagen-->
-<center><a href="#INICIO"><img src="https://www.gob.mx/cms/uploads/image/file/680878/Inicio.png" width="80" height="70" alt="INICIO"> </a></center>
+<center><a href="#INICIO"><img src="https://www.gob.mx/cms/uploads/image/file/680878/Inicio.png" width="200" height="100" alt="INICIO"> </a></center>
+<style>
+    /*estas instrucciones permiten aplicar diseño web responsive a pag web*/
+    .responsive{
+        max-width: 100%;
+        height: auto;
+    }
+</style>
 <br>
 </body>
 </html>
