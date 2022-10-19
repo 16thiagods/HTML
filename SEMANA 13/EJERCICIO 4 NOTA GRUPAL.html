@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHILE ANIDADO</title>
+</head>
+<body>
+    <center>
+        <h1></h1>
+        <h2></h2>
+        <script>
+            let prom=0;
+            let suma=0;
+            let nume_std=1 //controla cantidad de std
+            ///crear 1er ciclo whle 
+            while (nume_std<=3){
+                nomstd=prompt("ingrese nombre estudiante");
+                let num=1;//controla numero de notas de estudiante
+                //craer segundo ciclo while
+                while (num<=3){
+                    notas=parseFloat(prompt("ingrese nota programacion.."+num,));
+                    //
+                    suma+=nota;//acumulador de notas
+                    num++;//contador
+                }
+                nume_std++;
+                
+            }
+            //
+            prom=suma/9;
+                document.write("***************"+"COLEGIO SISTEMAS"+"****************")
+                document.write("***************"+"BOLETIN NOTAS"+"****************")
+                document.write("***************"+"PROMEDIO NOTAS GRUPO"+prom.toFixed(2)+"****************")
+            
+        </script>
+    </center>
+    
+</body>
+</html>
