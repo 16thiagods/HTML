@@ -7,10 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- link fontawesome -->
-<link rel=”stylesheet” href=”css/archivo.cs2”>
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
+<link rel="stylesheet" href="style2.css">
 </head>
 
 <body>
@@ -25,13 +24,19 @@
 
 <h2>PORTAFOLIO DE TIENDA ONLINE</h2>
 
-<div id="btnContainer">
+<div id="myBtnContainer">
 
-<button class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button>
+<button class="btn active" onclick="filterSelection('all')"> Todos</button>
 
-<button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+<button class="btn" onclick="filterSelection('computador')"> Computadores</button>
 
-<div><!-- cambio toggle switch-->
+<button class="btn" onclick="filterSelection('productos')"> Mercado Productos</button>
+
+<button class="btn" onclick="filterSelection('cursos')"> Cursos</button>
+
+</div>
+
+<div id="toggle"><!-- CAMBIO-->
 
 <input type="checkbox" class="checkbox" id="chk" />
 
@@ -47,10 +52,6 @@
 
 </div>
 
-</div>
-
-<br>
-
 <!-- Portfolio Gallery Grid -->
 
 <div class="row">
@@ -59,11 +60,11 @@
 
 <div class="content">
 
-<a href="./EJEMPLO ZOOM IMAGE.html"><img src="img/portatiles4.jpg" alt="" style="width:250px; height:250px;"></a>
+<img src="img/portatiles1.jpg" alt="" style="width:250px;height:250px;">
 
-<h4>Portátil Gamer ACER 15.6" </h4>
+<h4>Portátil HP</h4>
 
-<p>Intel Core i5 - RAM 8GB - HDD 1 TB </p>
+<p>AMD Athlon 4 GB RAM- SSD 256 GB</p>
 
 </div>
 
@@ -73,11 +74,9 @@
 
 <div class="content">
 
-<a href="./EJEMPLO ZOOM IMAGE2.html">
+<img src="img/portatiles2.jpg" alt="" style="width:250px;height:250px;">
 
-<img src="img/compu.jpeg" alt="" style="width:250px;height:250px;"></a>
-
-<h4>Portatil HP 14"</h4>
+<h4>Portátil HP 14"</h4>
 
 <p>Intel Core i3- 4 GB RAM- DD 1TB</p>
 
@@ -89,7 +88,7 @@
 
 <div class="content">
 
-<img src="img/compu 2.jpeg" alt="" style="width:250px;height:250px;">
+<img src="img/portatiles3.jpg" alt="" style="width:250px;height:250px;">
 
 <h4>Portátil ASUS VivoBook 14"</h4>
 
@@ -103,7 +102,7 @@
 
 <div class="content">
 
-<img src="img/dibujo compu.jpeg" alt="" style="width:250px;height:250px;">
+<img src="img/foto12.png" alt="" style="width:250px;height:250px;">
 
 <h4>Pollo Entero</h4>
 
@@ -117,11 +116,11 @@
 
 <div class="content">
 
-<img src="img/limon.jpg" style="width:250px;height:250px;">
+<img src="img/Foto15.png" style="width:250px;height:250px;">
 
 <h4>Limones</h4>
 
-<p>Limones tangelo x kilo..</p>
+<p>Limones tangelo x kilo/p>
 
 </div>
 
@@ -131,7 +130,7 @@
 
 <div class="content">
 
-<img src="img/Arroz.jpg" alt="" style="width:250px;height:250px;">
+<img src="img/foto7.jpg" alt="" style="width:250px;height:250px;">
 
 <h4>Arroz</h4>
 
@@ -149,7 +148,7 @@
 
 <h4>Javascript</h4>
 
-<p>Lenguaje programación Javascript.</p>
+<p>Curso Básico de lenguaje programación Javascript.</p>
 
 </div>
 
@@ -159,13 +158,13 @@
 
 <div class="content">
 
-<img src="img/css3.png" alt="" style="width:250px;height:250px;">
+<img src="img/css3.png" alt="" style="width:250px;height:270px;">
 
 <h4>CSS3</h4>
 
-<p>Hoja de estilos CSS3.</p>
+<p>Curso Básico de hoja de estilos CSS3.</p>
 
-</div>
+</d
 
 </div>
 
@@ -177,20 +176,20 @@
 
 <h4>HTML5</h4>
 
-<p>Lenguaje páginas web HTML5.</p>
+<p>Curso básico de lenguaje páginas web HTML5.</p>
 
 </div>
 
 </div>
 
-<!-- END GRID CONTAINER-->
+<!-- END GRID -->
 
 </div>
 
-<!-- END MAIN CONTAINER-->
+<!-- END MAIN -->
 
 </div>
 
-</body>
+Q</body>
 
 </html>
